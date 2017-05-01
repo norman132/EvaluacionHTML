@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, user-scalable:no">
+    <title>Evaluación Final</title>
+  </head>
+  <body>
+    <header>
+      <svg width="400px" height="200px" viewBox="0 0 400 200">
+        <image width="400px" height="200px" xlink:href="../img/logo.svg"> </image>
+        <h1 id="inicio"><font color= "#5F4C0B" face= "BankGothic">HOJA DE VIDA</font></h1>
+        <h1><em><strong>Norman Martinez</strong></em></h1>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="../html/Educacion.html">Educación</a></li>
+          <li><a href="html/Experiencia.html">Experiencia</a></li>
+        </ul>
+    </header>
+    <section>
+      <h2>Educación</h2>
+      <hr style="color:#BDBDBD;"/>
+      <table border="1">
+        <h3>Estudios Realizados</h3>
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2008</td>
+            <td>Instituto Tecnologíco del Norte</td>
+            <td>Guatemala</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>2009</td>
+            <td>Colegio Santa Fé</td>
+            <td>Guatemala</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>2013</td>
+            <td>Universidad Landivar</td>
+            <td>Guatemala</td>
+            <td>Sí</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Agregar Educación</h2>
+      <hr style="color:#BDBDBD;"/>
+      <form>
+        <fieldset>
+          <legend><h3><font color = "blue" >Nuevo Registro</font></h3></legend>
+          <p>
+              <label for="Anio">Año</label>
+              <br>
+              <input type="number" max="20017" name="Anio" placeholder="Ej. 2012" required>
+          </p>
+          <p>
+              <label for="Institucion">Institución:</label>
+              <br>
+              <textarea name="Coments" rows="5" cols="40"></textarea>
+          </p>
+          <p>
+              <label for"Culmino">¿Culminó?</label><br>
+              <input type="radio" name="Si" value="Si" checked=""> Si
+              <br>
+              <input type="radio" name="No" value="No"> No
+          </p>
+          <p>
+              <input type="submit" name="" value="Registrar">
+          </p>
+        </fieldset>
+      </form>
+      <a href="#inicio">Subir a Inicio</a>
+    </section>
+    <footer>
+     <p>Copyright © 2017 by Norman Martinez <strong>-Curso HTML, NextU-</strong></p>
+     <ul>
+       <li><strong>Email:</strong> norman.martinez@nextu.com</li>
+       <li><strong>Telefono:</strong> (502)5555-4444</li>
+       <li><strong>Dirección:</strong> Edificio Las Brisas, zona 5, Guatemala</li>
+     </ul>
+    </footer>
+  </body>
+</html>
